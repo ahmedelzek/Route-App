@@ -16,17 +16,25 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
+
     <com.google.android.material.button.MaterialButton
         android:id="@+id/courseBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:cornerRadius="10dp"
         android:textAllCaps="true"
-        android:layout_marginTop="10dp"
         android:backgroundTint="@color/accent"
         app:layout_constraintEnd_toEndOf="@+id/courseImg"
         app:layout_constraintStart_toStartOf="@+id/courseImg"
         app:layout_constraintTop_toBottomOf="@+id/courseImg"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        app:layout_constraintStart_toStartOf="@id/courseBtn"
+        app:layout_constraintEnd_toEndOf="@id/courseBtn"
+        app:layout_constraintTop_toBottomOf="@id/courseBtn"
+        android:background="@color/darker_gray"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

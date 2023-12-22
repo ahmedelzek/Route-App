@@ -26,8 +26,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         courseBtn = findViewById(R.id.courseBtn);
-
         RecyclerView recyclerView = findViewById(R.id.recyclerView);
+
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         ArrayList<ContentModel> contentModels = addData();
         ContentRecycleViewAdapter adapter = new ContentRecycleViewAdapter(contentModels);

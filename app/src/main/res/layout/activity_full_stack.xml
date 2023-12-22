@@ -35,9 +35,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:paddingHorizontal="8dp"
+                android:layout_marginLeft="8dp"
                 android:text="@string/full_stack_info"
                 android:textColor="@color/white"
-                android:textSize="25dp"
+                android:textSize="20dp"
                 android:textStyle="bold" />
 
         </LinearLayout>

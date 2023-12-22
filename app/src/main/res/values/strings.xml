@@ -69,7 +69,7 @@
 • Simple Notification\n
 • firebase to push Notifications\n
 • one signal push notifications SDK </string>
-    <string name="ios_info">OOP refreshment
+    <string name="ios_info">OOP refreshment\n
 • Introduction\n
 a. Installing OS X virtual machine\n
 b. Installing Xcode and the iOS SDK\n
@@ -141,8 +141,8 @@ a. Creational: Singleton.\n
 b. Structural: MVC, Decorator, Adapter, Facade.\n
 c. Behavioral: Observer\n
 • Creating final project depends on attendees needs</string>
-    <string name="full_stack_info">•HTML	
-•HTML 5 \n
+    <string name="full_stack_info">•HTML\n
+•HTML 5\n
 •CSS\n
 •CSS3\n
 •SASS\n
@@ -163,10 +163,10 @@ c. Behavioral: Observer\n
 •OOP \n
 •Design Patterns\n
 •MVC\n
-•laravel \n
+•laravel\n
 •build Api , Api authentication\n
 •connect wordpress with laravel\n
-•build wordpress web service \n
+•build wordpress web service\n
 •agile\n
 •Scrum\n
 •Software development process\n
